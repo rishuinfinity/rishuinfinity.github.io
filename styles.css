@@ -123,6 +123,8 @@ p{
     margin:auto;
     width:30%;
     border-radius:10px;
+    font-size:80%;
+    text-align:center;
 }
 .contact:hover a{
     color:#fff;
@@ -166,6 +168,8 @@ p{
 /*extras*/
 .cont ul{
     list-style-type:none;
+    margin:0px;
+    padding:0px;
 
 }
 .he{
@@ -177,16 +181,28 @@ p{
 }
 .block{
 
-    width:90%;
+    margin:20px;
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.75);
+    overflow:hidden;
     text-align:center;
-    margin:auto;
+    margin-top:20px;
+    padding-bottom:0px;
 }
 .cont{
     background-color:#ff9980;
+    width:100%;
+    margin-left:0px;
 }
 .cont li{
     border-bottom:1px solid #fff;
 }
 .bg{
     background-color:#006699;
+}
+.list h2{
+    font-size:95%;
+    font-weight:bold;
+}
+h3{
+    font-size:85%;
 }
