@@ -1,7 +1,9 @@
 *{
-  margin:0px;
-  padding:0px;
   font-family: Century Gothic;
+}
+head{
+    margin-left:0;
+    margin-right:0;
 }
 
 nav ul li{
@@ -15,7 +17,8 @@ nav ul{
 body{
     background-color:#e0ebeb;
     max-width:1200px;
-    margin:auto;
+    margin: 0 auto;
+    float: none;
 
 }
 #nav{
@@ -76,17 +79,20 @@ float:left;
     margin-top:auto;
 }
 
+.right{
+    text-align:right;
 
+}
 p{
     text-indent:60px;
-    text-align:justified;
+    text-align:center;
 }
 #right{
     text-align:right;
 }
 /*footer*/
 #footer{
-    background-color:black;
+    background-color:#006699;
     text-align:center;
     font-family: "Century Gothic";
     margin-bottom: 0px;
@@ -94,6 +100,9 @@ p{
 #footer:hover{
     color:#fff;
     font-size: 110%;
+}
+#footer a{
+    text-decoration:none;
 }
 .list{
     background-color:lightgrey;
@@ -160,6 +169,7 @@ p{
 
 }
 .he{
+
     background-color:#ff5c33;
         border-bottom:1px solid #fff;
         color:#fff;
@@ -177,7 +187,6 @@ p{
 .cont li{
     border-bottom:1px solid #fff;
 }
-h3{
-font-color:#fff;
-  font-size:85%;
+.bg{
+    background-color:#006699;
 }
