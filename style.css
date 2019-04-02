@@ -1,0 +1,153 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: Century Gothic;
+}
+
+nav ul li{
+    list-style-type:none;
+}
+nav ul{
+    text-align:right;
+    text-decoration:none;
+}
+
+body{
+    background-color:#e0ebeb;
+    max-width:1200px;
+    margin:auto;
+
+}
+#nav{
+ background-color:#000000;
+ overflow:hidden;
+ width:100%;
+
+}
+#links{
+width:70%;
+float:right;
+font-size:1em;
+line-height:2;
+}
+.active a{
+    background:#fff;
+    color: #000;
+}
+li a{
+    text-decoration:none;
+    color:#fff;
+    border: 5px solid transparent;
+    border-left: 2px solid #fff;
+    padding:1px 3px;
+    margin-top:3px;
+    transition:0.6s ease;
+}
+li a:hover{
+    background:#fff;
+    color: #000;
+}
+
+#tag{
+width:30%;
+float:left;
+}
+.intro{
+    margin:20px;
+    overflow:hidden;
+    background-color:lightgrey;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+
+}
+.image{
+    float:left;
+    width: 40% ;
+    margin:auto;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+
+}
+.info{
+    float:right;
+    width:50%;
+    text-align:right;
+    padding-top:40px;
+    padding-right:1em;
+    margin:auto;
+    margin-top:auto;
+}
+
+
+p{
+    text-indent:60px;
+    text-align:center;
+}
+#right{
+    text-align:right;
+}
+#footer{
+    background-color:black;
+    text-align:center;
+    font-family: "Century Gothic";
+    margin-bottom: 0px;
+}
+#footer:hover{
+    color:#fff;
+    font-size: 110%;
+}
+.list{
+    background-color:lightgrey;
+    text-align:center;
+    margin:10px;
+    border-radius:5px;
+}
+.loc{
+    border-radius:40px;
+    transition: 0.6s ease;
+}
+.loc:hover{
+    background-color:black;
+}
+
+.contact{
+    transition:0.8s ease;
+    margin:auto;
+    width:30%;
+    border-radius:10px;
+}
+.contact:hover a{
+    color:#fff;
+}
+.contact.f:hover{
+    background-color:blue;
+    color:#fff;
+}
+
+.contact.i:hover{
+    background-color:red;
+    color:white;
+}
+.tablediv{
+    overflow-x:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.table{
+    width:100%;
+
+}
+.table th{
+    background-color:#005580;
+    color:#fff;
+}
+.table tr{
+    background-color:#fff;
+}
+.table tr:hover{
+    background-color:lightgrey;
+}
+.special{
+    text-align:center;
+}
+.table th tr{
+    border-bottom: 4px solid  #000;
+}
