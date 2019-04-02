@@ -84,6 +84,7 @@ p{
 #right{
     text-align:right;
 }
+/*footer*/
 #footer{
     background-color:black;
     text-align:center;
@@ -126,6 +127,7 @@ p{
     background-color:red;
     color:white;
 }
+/*edu*/
 .tablediv{
     overflow-x:auto;
     padding-top:10px;
@@ -150,4 +152,28 @@ p{
 }
 .table th tr{
     border-bottom: 4px solid  #000;
+}
+
+/*extras*/
+.cont ul{
+    list-style-type:none;
+
+}
+.he{
+    background-color:#ff5c33;
+        border-bottom:1px solid #fff;
+        color:#fff;
+        font-size:125%;
+}
+.block{
+
+    width:90%;
+    text-align:center;
+    margin:auto;
+}
+.cont{
+    background-color:#ff9980;
+}
+.cont li{
+    border-bottom:1px solid #fff;
 }
