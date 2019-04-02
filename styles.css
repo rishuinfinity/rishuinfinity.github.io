@@ -1,5 +1,5 @@
 *{
-  font-family: Century Gothic;
+  font-family: 'Montserrat', sans-serif;
 }
 head{
     margin-left:0;
@@ -86,6 +86,7 @@ float:left;
 p{
     text-indent:60px;
     text-align:center;
+    font-family: 'PT Sans', sans-serif;
 }
 #right{
     text-align:right;
