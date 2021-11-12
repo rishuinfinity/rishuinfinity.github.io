@@ -1,0 +1,89 @@
+html, body {
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+}
+
+#velina{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(1,1,1,0.85);
+}
+
+#video_overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  overflow: hidden;
+}
+
+#video, #dots_wrapper{
+  width:100%;
+  max-height:100%;
+  position: absolute;
+  top: -500px;
+  bottom: -500px;
+  left: -500px;
+  right: -500px;
+  margin:auto;
+  transform: rotateY(180deg);
+}
+
+.logo {
+  height: 42px;
+  margin-top: 9px;
+}
+
+#header{
+  background-color: #333333;
+  height: 60px;
+  width:100%;
+  text-align: center;
+}
+#wrapper{
+  height: calc(100% - 60px);
+  position: relative;
+  background-color: black;
+}
+
+.face_tracker_out{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  max-width: 900px;
+  max-height: 900px;
+  background-size: 100% 100%;
+}
+
+.emotion{
+  position: absolute;
+  opacity: 0;
+  transform: translate(-50%,50%);
+  color:white;
+  font-size: 18px;
+  transition: all 2s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width : 768px) {
+  #video, #dots_wrapper{
+    width:auto;
+    height:100%;
+  }
+}
