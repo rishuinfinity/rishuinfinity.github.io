@@ -1,0 +1,27 @@
+/* #start_over {
+    position: absolute;
+    background-color: #7F8C8D;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    cursor: pointer;
+  } */
+  #start_over{
+      margin: 10px;
+  }
+  #start_over span {
+    position: absolute;
+    font-size: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    display: block;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="mphtools-feature" content="compatibilityUI, cameraPrivacyPopup, compatibilityAutoCheck">
+      <link rel="stylesheet" href="idx.css">
+    </head>
+  <body>
+    <script src="https://sdk.morphcast.com/mphtools/v1.0/mphtools.js"></script>
+    <script src="https://ai-sdk.morphcast.com/v1.15/ai-sdk.js"></script>
+    <!-- <script>
+    CY.loader()
+      .addModule(CY.modules().FACE_DETECTOR.name)
+      .load()
+      .then(({ start, stop }) => start());
+    
+    window.addEventListener(CY.modules().FACE_DETECTOR.eventName, (evt) => {
+      console.log('Face detector result', evt.detail);
+    });
+    </script> -->
+
+<div><h1>Video</h1> 
+
+    <video id="target_video" width="720" height="480" >
+      <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video> 
+<br/>
+    <button onclick="goFullscreen('target_video'); return false">
+      View Fullscreen!
+    </button>
+    <button id="start_over">
+      CLICK TO START
+    </button>
+  <div><b>Results</b></div>
+
+  <div id="age">Age: -</div>
+  <div id="gender">Gender: -</div>
+  <div id="emotion">Emotion: -</div>
+
+  <script type="text/javascript">
+    function goFullscreen(id) {
+      var element = document.getElementById(id);       
+      if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if (element.webkitRequestFullScreen) {
+        element.webkitRequestFullScreen();
+      }  
+    }
+    </script>
+    
+  <script src="idx.js"></script>
+</body>
+</html>
